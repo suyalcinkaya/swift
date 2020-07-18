@@ -43,6 +43,34 @@ if a < 10 {
 // a is grater than 10
 ```
 
+## Multiple conditions 
+
+### AND
+
+```swift
+let a = 15
+let b = 10
+
+if a > 10 && b > 5 {
+  ...
+}
+
+// It will work since the both conditions are true.
+```
+
+### OR
+
+```swift
+let a = 15
+let b = 10
+
+if a > 10 || b < 5 {
+  ...
+}
+
+// It will work since the first condition is true although the second one is not.
+```
+
 
 ## Keep in mind
 
